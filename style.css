@@ -35,3 +35,72 @@
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
 }
+
+body{
+  background-image: url(./assets/Background_Contacts.png);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 132px;
+  margin-bottom: 56px;
+}
+
+.profile-pic > img{
+  width: 87px;
+  height: 87px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--red);
+}
+
+.fisrt-paragraph{
+  font: var(--subtitle);
+  color: var(--gray-500);
+  text-align: center;
+
+  .name{
+    color: var(--red);
+  }
+
+  .developer{
+    font: var(--title-lg);
+    color: var(--gray-600);
+  }
+}
+
+.second-paragraph{
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-top: 16px;
+  text-align: center;
+}
+
+.span-skills{
+  background-color: var(--gray-300);
+  color: var(--gray-500);
+  font: var(--text-md);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  width: 114px;
+  height: 40px;
+}
+  
+
+
+.skills{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+
+}
