@@ -94,12 +94,17 @@ header{
   width: 114px;
   height: 40px;
 }
-  
-
 
 .skills{
   display: flex;
   gap: 16px;
   align-items: center;
   justify-content: center;
+}
+
+.vector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 99.5px;
 }
