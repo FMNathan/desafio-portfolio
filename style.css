@@ -37,9 +37,8 @@
 }
 
 body{
-  background-image: url(./assets/Background_Contacts.png);
-  background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-image: url(./assets/Background_Intro.png);
+  background-size: contain;
 }
 
 header{
@@ -103,10 +102,15 @@ header{
 }
 
 .vector{
+  background-color: var(--gray-200);
   display: flex;
   align-items: center;
   justify-content: center;
   padding-block: 99.5px 60.5px;
+}
+
+.background-projects{
+  background-color: var(--gray-200);
 }
 
 .project-subtitle{
@@ -114,6 +118,7 @@ header{
   color: var(--red);
   text-align: center;
   padding-bottom: 8px;
+  margin-top: 72px;
 }
 
 .project-title{
@@ -143,7 +148,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .all-projects > img{
@@ -165,4 +170,60 @@ header{
   color: var(--gray-500);
   margin-top: 8px;
   margin: 8px 16px 21px 16px;
+}
+
+.bg-servicos{
+  background-color: var(--gray-100);
+}
+
+.services-subtitle{
+  font: var(--subtitle);
+  color: var(--red);
+  text-align: center;
+  padding: 88px 0 8px 0;
+}
+
+.services-title{
+  font: var(--title-md);
+  color: var(--gray-600);
+  text-align: center;
+}
+
+.services{
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  padding-top: 56px;
+  gap: 24px;
+  padding-bottom: 120px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.services-card{
+  border: 2px solid var(--gray-300);
+  border-radius: 8px;
+  display: flex;
+  width: 280px;
+  height: 155px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 20px;
+
+  h4{
+    padding-top: 20px;
+    font: var(--title-sm);
+    color: var(--gray-600); 
+  }
+
+  p{
+    font: var(--text-sm);
+    color: var(--gray-500);
+    padding-top: 8px;
+  }
+}
+
+.contact{
+  background-image: url(assets/Background_Contacts.png);
+  
 }
