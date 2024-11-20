@@ -170,7 +170,7 @@ header{
   width: 306px;
   height: 156px;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
   margin: 5px 0 0 0;
 }
 
